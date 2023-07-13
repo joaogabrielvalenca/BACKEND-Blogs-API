@@ -31,6 +31,8 @@ Neste projeto você irá:
 - [ ] [Dia 02: ORM - Associations 1:1 e 1:N](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/94d0e996-1827-4fbc-bc24-c99fb592925b/section/0ca77b1d-4770-4646-8368-167d2305e763/day/94e113d7-6a86-4536-a1d3-08f55f557811/lesson/1f2a47c4-5a3c-411c-89cd-27190966915e)
 - [ ] [Dia 03: ORM - Associations N:N e Transactions](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/94d0e996-1827-4fbc-bc24-c99fb592925b/section/0ca77b1d-4770-4646-8368-167d2305e763/day/22fa9643-5f27-41f5-943b-2c7cc1c67c01/lesson/be289f53-bd25-4a5f-817e-1770bbf006b4)
 - [ ] [Dia 04: JWT - (JSON Web Token)](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/94d0e996-1827-4fbc-bc24-c99fb592925b/section/0ca77b1d-4770-4646-8368-167d2305e763/day/85fd2ed3-f6cc-4789-8990-7f5fe827422c/lesson/c93a3302-ddd6-4927-8c09-bf5307b5c492)
+- [ ] [Mentoria - Revisão: criando do zero uma API com Sequelize](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/live-lectures/1ad46538-81ac-40b9-8a16-1fa50743c6cf/recording/c95da169-6d2e-4e85-87ba-01cdd8bc5d9a)
+- [ ] [Mentoria - Revisitando JWT](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/live-lectures/1ad46538-81ac-40b9-8a16-1fa50743c6cf/recording/e54c047a-b364-43b0-9fff-009bdd93c8b5)
 
 ### Conteúdos de Soft Skills
 
