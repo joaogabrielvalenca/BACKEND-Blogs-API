@@ -4,7 +4,6 @@
  * @param {*} DataTypes
  * @returns
  */
-
 module.exports = (sequelize, DataTypes) => {
   const Categories = sequelize.define(
     'Category',
@@ -15,22 +14,22 @@ module.exports = (sequelize, DataTypes) => {
         autoIncrement: true,
       },
       name: DataTypes.STRING,
-  },
+    },
+    {
+      tableName: 'categories',
+      underscored: true,
+      timestamps: false,
+    }
+  );
 
-{
-    tableName: 'categories',
-    underscored: true,
-    timestamps: false,
-  },
-);
-
-  // CategoriesTable.associate = (models) => {
-  //   CategoriesTable.belongsToMany(models.BlogPosts, {
-  //     as: 'blogPosts',
-  //     foreignKey: 'category_id',
-  //     otherKey: 'post_id',
-  //   });
-  // };
+  Categories.associate = (models) => {
+    Categories.belongsToMany(models.BlogPost, {
+      through: 'PostCategory',
+      foreignKey: 'category_id',
+      otherKey: 'post_id',
+      as: 'blogPosts',
+    });
+  };
 
   return Categories;
 };
