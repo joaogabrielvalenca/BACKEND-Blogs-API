@@ -13,13 +13,16 @@ const BlogPostsSchema = (sequelize, DataTypes) => {
       },
       title: DataTypes.STRING,
       content: DataTypes.TEXT,
-      user_id: DataTypes.INTEGER,
+      userId: {
+        type: DataTypes.INTEGER,
+        field: 'user_id',
+      } ,
       published: DataTypes.DATE,
       updated: DataTypes.DATE,
     },
     {
       tableName: 'blog_posts',
-      timestamps: true,
+      timestamps: false,
     }
   );
 
