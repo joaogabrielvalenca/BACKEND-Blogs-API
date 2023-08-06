@@ -21,10 +21,8 @@ const formatPostData = (post) => ({
 
 const listPosts = async (_req, res) => {
   try {
-    // Busca todos os blog posts com suas informações usando a função do serviço
     const posts = await BlogPostService.getPosts();
 
-    // Formata os dados antes de enviar a resposta
     const formattedPosts = posts.map(formatPostData);
 
     return res.status(200).json(formattedPosts);

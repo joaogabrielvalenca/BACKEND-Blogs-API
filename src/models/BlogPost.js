@@ -13,10 +13,7 @@ const BlogPostsSchema = (sequelize, DataTypes) => {
       },
       title: DataTypes.STRING,
       content: DataTypes.TEXT,
-      userId: {
-        type: DataTypes.INTEGER,
-        field: 'user_id',
-      } ,
+      user_id: DataTypes.INTEGER,
       published: DataTypes.DATE,
       updated: DataTypes.DATE,
     },
