@@ -22,7 +22,7 @@ app.post('/login', login);
 
 app.post('/user', userValidationMiddleware, createNewUser);
 
-app.get('/user', getAllUsers); 
+app.get('/user', validateUserToken, getAllUsers); 
 
 app.get('/user/:id', validateUserToken, getUserById);
 
