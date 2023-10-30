@@ -35,7 +35,7 @@ const userValidationMiddleware = async (req, res, next) => {
     return res.status(409).json({ message: 'User already registered' });
   }
 
-  next(); // Chama o próximo middleware ou rota caso não haja erros
+  next(); 
 };
 
 module.exports = userValidationMiddleware;
